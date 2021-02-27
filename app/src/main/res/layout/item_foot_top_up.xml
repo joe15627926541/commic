@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingTop="20dp"
+    android:paddingRight="15dp">
+
+
+    <TextView
+        android:id="@+id/tvWechatPay"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/changitem_contact"
+        android:gravity="center"
+        android:text="微信支付"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tvAliPay"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/changitem_alipay"
+        android:gravity="center"
+        android:text="支付宝"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:visibility="gone" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:lineSpacingMultiplier="1.2"
+        android:text="温馨提示:\n1.人民币与金币的汇率为1元=100金币\n2.此平台为虚拟货币，一经交易则无法进行退款处理"
+        android:textColor="#989898"
+        android:textSize="12sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:text="3.'开通VIP会员'全站所有的漫画，全部免费阅读!"
+        android:textColor="#D0D02C"
+        android:textSize="12sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:text="4.全站漫画金币只收一次费，再次阅读免费(开通VIP全站免费)"
+        android:textColor="@color/red_ff0000"
+        android:textSize="12sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:text="5.找回充值账户可以通过支付的商户订单号找回您的账号"
+        android:textColor="#0000ff"
+        android:textSize="12sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="30dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6.若充值出现问题，请及时"
+            android:textColor="#989898"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tvService"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" 联系客服"
+            android:textColor="@color/red_ff0000"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+
+</LinearLayout>

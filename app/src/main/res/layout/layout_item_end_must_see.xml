@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/gray_f3f3f3"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="7dp"
+            android:paddingTop="7dp"
+            android:paddingRight="7dp"
+            android:paddingBottom="7dp">
+
+
+            <com.luoshunkeji.comic.weight.CircularImage
+                android:id="@+id/ivMustSeeHead"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@mipmap/logo_classic" />
+
+            <TextView
+                android:id="@+id/tvMustSee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@+id/ivMustSeeHead"
+                android:text="经典必看"
+                android:textColor="@color/black_2c3e50"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tvMustSeeMore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="更多"
+                android:textColor="@color/red_ff0000"
+                android:textSize="14sp" />
+        </RelativeLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/MustSeeRecycleView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp" />
+
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rlItem"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="5dp"
+    android:background="@drawable/changitem_top_up"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/tvPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvPrice"
+        android:layout_marginTop="3dp"
+        android:textColor="@color/red_ea222c"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/tvTip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvContent"
+        android:layout_marginTop="3dp"
+        android:textColor="@color/gray_767676"
+        android:textSize="12sp" />
+
+
+    <ImageView
+        android:id="@+id/ivIcon"
+        android:layout_width="42dp"
+        android:layout_height="43dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true" />
+
+    <TextView
+        android:id="@+id/tvState"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="3dp"
+        android:layout_toRightOf="@+id/tvPrice"
+        android:paddingLeft="3dp"
+        android:paddingTop="1dp"
+        android:paddingRight="3dp"
+        android:paddingBottom="1dp"
+        android:textColor="@color/white"
+        android:textSize="12sp" />
+
+</RelativeLayout>

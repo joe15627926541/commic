@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <include layout="@layout/layout_title_nomal" />
+    <View
+
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/changitem_search_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="联系方法"
+            android:textColor="@color/black_212121"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(12:00-2:00)"
+            android:textColor="@color/red_ff0000"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/tvService"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/changitem_contact"
+        android:gravity="center"
+        android:text="联系客服"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvComplanit"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/changitem_complanit"
+        android:gravity="center"
+        android:text="我要投诉"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="30dp"
+        android:text="温馨提示"
+        android:textSize="12sp" />
+    android:textColor="@color/black_757575"
+
+
+    <TextView
+        android:layout_marginLeft="40dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:lineSpacingMultiplier="1.5"
+        android:text="1.请绑定账户，以防账户丢失。\n2.金币丢失找回账户流程：首页-我的-找回-账户 输\n入'\微信支付或支付宝' 账单-订单详情里面的'商户订单'\n即可找回账户"
+        android:textColor="@color/black_757575"
+        android:textSize="12sp" />
+
+</LinearLayout>

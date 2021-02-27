@@ -1,0 +1,45 @@
+<resources>
+
+
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#FFF</item>
+        <item name="colorPrimaryDark">#FFF</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="LoadingProgressBar">
+        <item name="android:maxWidth">45.0dip</item>
+        <item name="android:maxHeight">45.0dip</item>
+        <item name="android:indeterminateDrawable">@drawable/pg_loading</item>
+        <item name="android:minWidth">25.0dip</item>
+        <item name="android:minHeight">25.0dip</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+    <style name="NMTheme" parent="AppTheme">
+
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:windowTranslucentStatus">true</item>
+
+
+    </style>
+    <style name="line">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:background">@color/line</item>
+    </style>
+
+    <style name="main_tab_bottom">
+        <item name="android:textSize">11sp</item>
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:textColor">@drawable/main_tab_color</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:button">@null</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:background">#00000000</item>
+    </style>
+
+</resources>

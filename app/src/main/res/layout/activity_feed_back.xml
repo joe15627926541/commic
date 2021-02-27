@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <include layout="@layout/layout_title_nomal" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/changitem_search_line" />
+
+
+    <EditText
+        android:id="@+id/edtPhone"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/changitem_edit"
+        android:gravity="center_vertical"
+        android:hint="请留下真实联系方式QQ或邮箱，方便我们答疑。"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textColor="@color/black_2c3e50"
+        android:textColorHint="@color/gray_9c9c9c"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/edtContent"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/changitem_edit"
+        android:gravity="left"
+        android:hint="遇到什么问题？180字以内才能成功传送喔~"
+        android:maxLength="180"
+        android:padding="15dp"
+        android:textColor="@color/black_2c3e50"
+        android:textColorHint="#919191"
+        android:textSize="12sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
+
+        <TextView
+            android:id="@+id/tvLength"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="您还可以输入180字"
+            android:textColor="@color/black_2c3e50"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/tvSend"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/changitem_contact"
+            android:gravity="center"
+            android:text="发表评论"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+
+</LinearLayout>

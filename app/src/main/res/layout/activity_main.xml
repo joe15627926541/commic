@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pop_like"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:fitsSystemWindows="true">
+
+    <FrameLayout
+        android:id="@+id/layout_fragm"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/layout_table"></FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_table"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:orientation="vertical">
+
+        <View style="@style/line" />
+
+        <!--读取本地-->
+        <LinearLayout
+            android:id="@+id/ll_tab"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <RadioGroup
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/tab_home"
+                    style="@style/main_tab_bottom"
+                    android:layout_weight="1"
+                    android:checked="true"
+                    android:drawableTop="@drawable/tab_home"
+                    android:onClick="fragmclick" />
+
+                <RadioButton
+                    android:id="@+id/tab_recommend"
+                    style="@style/main_tab_bottom"
+                    android:layout_weight="1"
+                    android:drawableTop="@drawable/tab_recommend"
+                    android:onClick="fragmclick" />
+
+
+                <RadioButton
+                    android:id="@+id/tab_me"
+                    style="@style/main_tab_bottom"
+                    android:layout_weight="1"
+                    android:drawableTop="@drawable/tab_me"
+                    android:onClick="fragmclick" />
+
+            </RadioGroup>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

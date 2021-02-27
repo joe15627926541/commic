@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <include layout="@layout/layout_title_nomal" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/changitem_search_line" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:background="#fbf3e7"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="如何找回丢失的账户：请查看您'微信或支付宝'账单-订单详情里面的'商户订单'在下面输入'商户订单'请及时修改您的账户密码或绑定手机号避免账户丢失。"
+        android:textColor="#AF7326"
+        android:textSize="12sp" />
+
+
+    <EditText
+        android:id="@+id/edtOrderNumber"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/changitem_edit"
+        android:gravity="center_vertical"
+        android:hint="商户单号"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textColor="@color/gray_9c9c9c"
+        android:textColorHint="@color/gray_9c9c9c"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/tvConfirm"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/changitem_password_update"
+        android:gravity="center"
+        android:text="找回账号"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:text="有关账户异常的说明"
+        android:textColor="@color/red_e63740"
+        android:textSize="12sp"
+        android:visibility="gone" />
+
+
+</LinearLayout>
