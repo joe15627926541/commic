@@ -2,7 +2,9 @@ package com.luoshunkeji;
 
 import android.os.Bundle;
 import android.os.Handler;
+import android.util.Log;
 import android.widget.ImageView;
+
 import com.luoshunkeji.comic.R;
 import com.luoshunkeji.comic.dao.BaseFramActivity;
 import com.luoshunkeji.comic.utils.ImageUtils;
@@ -18,7 +20,8 @@ public class TestActivity extends BaseFramActivity {
 
     @Override
     public void initData() {
-
+       //this is a line test code
+        Log.d("", "sdjfhksdhfkshf");
     }
 
     @Override
